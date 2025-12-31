@@ -1,0 +1,342 @@
+header{
+    background-image: url(images/a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid white;
+    border-radius: 12px;
+    padding: 20px;
+}
+header h1{
+    color: white;
+}
+nav{
+    background-color: black;
+    height: fit-content;
+    position: fixed;
+}
+.img4{
+    height: 80%;
+    width: 80px;
+    border-radius: 40px;
+    float: left;
+    background-color: 0;
+}
+nav a{
+    color: white;
+    font-size: 35px;
+    margin-inline: 40px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    text-align: center;
+    float: inline-end;
+}
+body{
+    background-color: antiquewhite;
+}
+marquee{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(184, 173, 26);
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 35px;
+}
+footer p{
+    font-size: 25px;
+    text-transform: uppercase;
+    align-items: center;
+}
+footer p a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23;
+    align-items: center;
+    word-spacing: 0;
+    margin: 10px;
+}
+footer{
+    background-color: aqua;
+    height: 350px;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+footer a{
+    margin-bottom: 30px;
+}
+.footer2{
+    text-align: center;
+    font-size: 25px;
+}
+.footer2 a{
+    color: black;
+    margin: 10px;
+}
+.footer3{
+    font-size: 30px;
+}
+.footer3 i{
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.home1{
+    background-color: rgb(175, 159, 159);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: max-content;
+}
+.home1 p{
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.home1 img{
+    align-items: center;
+}
+.home1 h1{
+    text-align: center;
+    font-size: 25;
+    color: green;
+}
+.img1{
+    margin: 20px;
+    position: center;
+    border-radius: 15px;
+    width: 800px;
+    align-items: center;
+}
+.wrd1{
+    text-align: center;
+    margin-bottom: 30px;
+    height: max-content;
+}
+.wrd1 p{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.wrd1 h2{
+    font-size: 35;
+    color: green;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: auto;
+}
+.wrd2{
+    initial-letter-align:unset ;
+}
+.core1{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 100px;
+}
+.core1 h1{
+    text-align: center;
+    font-size: 25;
+    color: green;
+    align-items: center;
+    position: center;
+    margin-left: 40px;
+}
+.value1{
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 217, 0);
+    border: 2px solid black;
+    ruby-align: center;
+    margin: 2px;
+}
+.mq1{
+    background-color: rgb(175, 159, 159);
+    transition-duration: 0s;
+    border: 0;
+}
+.value1 h4{
+    text-decoration: underline;
+    width: 25px;
+    border-radius: 12.5px;
+    color: black;
+    text-align: center;
+}
+.value1 p{
+    font-style: italic;
+    color: black;margin: 0%;
+    position:static;
+    text-align: center;
+    text-wrap: wrap;
+    position: center;
+}
+.img2{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 5px;
+    float: left;
+}
+.member2{
+    background-color: lightgray;
+    margin: 5px;
+    width: 236px;
+    height: 420px;
+    float: left;
+    border-radius: 5px;
+    text-wrap: wrap;
+}
+.member1{
+    position: center;
+    margin: 20px;
+    height: max-content;
+    width: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.member1 hr{
+    color: black;
+}
+.member1 h4{
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.member2 p{
+    font-size: 25px;
+    text-align: center;
+}
+.member2{
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: centers;
+    border-radius: 20px;
+    background-color: rgb(97, 166, 226);
+    margin-left: 300px;
+}
+.memberform{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 300px;
+    height: 600px;
+}
+input{
+  border: 2px solid black;
+  margin: 10px;
+  height: 30px;
+  background-color: white;
+  font-weight: bold;
+  color: white;
+  width: 600px;
+  margin-inline: 20px;
+}
+input#name{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+input#email{
+    font-style: italic;
+}
+input#gender{
+    height: 30px;
+    width: 30px;
+}
+form u{
+    color:red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.content {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.submit{
+    background-color: rgb(19, 153, 206);
+    border-radius: 8px;
+    height: 30px;
+    margin-inline: 250px;
+    margin-bottom: 20px;
+}
+.submit:hover{
+    font-size: larger;
+    background-color: blue;
+    margin-inline: 220px;
+}
+textarea{
+    margin-inline: 30px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.content{
+    border: 4px solid red;
+    width: 100vh;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(42, 40, 40);
+}
+.content form{
+    margin-inline: 50px;
+}
+.content h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gender{
+    height: 30px;
+    font-size: 22px;
+}
+.footera1{
+    background-color: rgb(79, 194, 79);
+    border: 3px solid black;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    width: fit-content;
+    height: max-content;
+    font-size: 35px;
+    margin-block: 20px;
+}
+.footera1:hover{
+    background-color: green;
+    font-weight: 40px;
+    font-size: 40px;
+    width: fit-content;
+    height: fit-content;
+    border: 4px solid black;
+    border-radius: 6px;
+}
+.hh1{
+    margin: 10px;
+}
+.site-logo { 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 25px;  
+    object-fit: cover; 
+}
+.livespace{
+    width:100%; 
+    height:50vh; 
+    text-align:center;
+}
+.pgi{
+    text-transform: capitalize;
+    position: fixed;
+    color: black;
+    align-content: center;
+}
